@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shah Portfolio</title>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav_content">
+        <div class="logo">
+          <a id="logo" href="#">Shah Devs</a>
+        </div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section_container">
+        <!-- display = grid -->
+        <div class="content">
+          <!-- display = flex -->
+          <p class="subtitle">Hello</p>
+          <h1 class="title">
+            I'm
+            <span
+              >Muhammad Shah <br />
+              a </span
+            >Web Developer.
+            <!-- <img id="speak" src="speaker.png" alt=""> -->
+             <br>
+            </h1>
+            <i id="speak" class="ri-volume-up-fill"></i>
+          <p class="description">
+            I am a Front-End Web Developer. Proficient in HTML, CSS, and
+            JavaScript. Eager to leverage technical skills and creativity to
+            contribute to dynamic web projects. With a keen eye for detail and a
+            commitment to user-centric design, I strive to craft engaging and
+            functional web experiences.
+          </p>
+          <div class="action_btns">
+            <button class="hire_me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./myimage.jpeg" width="300px" alt="" />
+        </div>
+      </div>
+    </section>
+   
     
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
